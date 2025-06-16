@@ -1,4 +1,4 @@
-frequency: 10
+frequency: 30
 
 silent_tf_failure: false
 sensor_timeout: 0.1
@@ -19,7 +19,7 @@ publish_tf: true
 map_frame: map              # Defaults to "map" if unspecified
 odom_frame: odom            # Defaults to "odom" if unspecified
 base_link_frame: base_footprint      #base_footprint  # Defaults to "base_link" if unspecified
-world_frame: odom          # Defaults to the value of odom_frame if unspecified
+#world_frame: odom          # Defaults to the value of odom_frame if unspecified
 
 # Complete the odom0 configuration
 odom0: /odom_noise         #/mobile_robot/mobile_base_controller/odom            
